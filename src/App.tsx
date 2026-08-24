@@ -103,7 +103,6 @@ function Home() {
           <a href="#hero" aria-label="Lumina home" data-testid="link-lumina-home">
             <PluggingAiLogo />
           </a>
-          <span className="text-[9px] uppercase tracking-[0.3em] text-white/55" data-testid="text-edition">Edition 01</span>
         </header>
 
         <section id="hero" className="flex flex-1 items-start justify-center pt-[12vh] sm:pt-[14vh] md:pt-[15vh]" aria-labelledby="hero-headline">
@@ -111,10 +110,14 @@ function Home() {
             <h1 id="hero-headline" className="entrance entrance-delay-1 whitespace-normal text-[clamp(1.7rem,4vw,3.8rem)] font-normal leading-[0.98] tracking-[-0.065em] text-white drop-shadow-[0_2px_18px_rgba(13,24,36,0.3)] md:whitespace-nowrap" data-testid="heading-hero">
               Ignore Noise, Keep Thinking<span className="block md:inline"> In Systems</span>
             </h1>
-            <p className="entrance entrance-delay-2 mt-6 whitespace-nowrap tracking-[-0.01em] text-white/70 text-[14px]" data-testid="text-hero-description">Deploy Self-Evolving Go-to-Market Systems in 2 Days With Full AI Sovereignty</p>
+            <p className="entrance entrance-delay-2 mt-6 max-w-xl mx-auto text-center leading-relaxed tracking-[-0.01em] text-white/70 text-[14px] sm:text-[15px]" data-testid="text-hero-description">
+              Deploy Self-Evolving Go-to-Market Systems<br className="hidden sm:inline" /> in 2 Days With Full AI Sovereignty
+            </p>
             <div className="entrance entrance-delay-3 mt-8 flex flex-col items-center gap-3 sm:flex-row">
               <a
-                href="mailto:hello@plugging.ai?subject=Book%20a%20call"
+                href="https://cal.com/saif-allah-aziez-7t3xl3/strategy-call"
+                target="_blank"
+                rel="noreferrer"
                 className="inline-flex min-w-[10.5rem] items-center justify-center gap-3 rounded-full bg-white px-6 py-3.5 text-[10px] font-medium uppercase tracking-[0.16em] text-[#101a26] transition-all duration-300 hover:bg-[#d9e8e8] hover:shadow-[0_12px_40px_rgba(205,228,227,0.18)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-transparent"
                 data-testid="button-book-call"
               >
@@ -156,7 +159,7 @@ function Home() {
           </div>
 
           <div className="flex flex-col items-start justify-between gap-5 border-t border-white/10 pt-5 sm:flex-row sm:items-center">
-            <p className="text-[9px] uppercase tracking-[0.2em] text-white/45" data-testid="text-attribution">Curated by @GotInGeorgiG</p>
+            <p className="text-[9px] uppercase tracking-[0.2em] text-white/45" data-testid="text-attribution">Designed By Plugging AI</p>
             <div className="flex items-center gap-4">
               <span className="text-[9px] uppercase tracking-[0.18em] text-white/45">Join the Journey:</span>
               <div className="flex items-center gap-3" aria-label="Lumina social links">
